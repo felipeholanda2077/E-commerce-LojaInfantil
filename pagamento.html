@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <link rel="stylesheet" type="text/css" href="metodo.css">
+</head>
+<body>
+    <div class="payment">
+        <div class="bg"></div>
+        <div class="card">
+            <img src="img/chip.png" class="chip">
+            <div class="logo"></div>
+            <h2 class="bankName" contenteditable="true"></h2>
+            <form>
+                <div class="inputBox">
+                    <span>Número</span>
+                    <input type="text" placeholder="0123 4567 8901 2345" maxlength="19">
+                </div>
+                <div class="inputBox">
+                    <span>Nome</span>
+                    <input type="text" placeholder="John Doe">
+                </div>
+              <div class="group">
+                <div class="inputBox">
+                    <span>Validade</span>
+                    <input type="text" placeholder="MM/YY" maxlength="5">
+                </div>
+                <div class="inputBox">
+                    <span>CCV</span>
+                    <input type="password" placeholder="***" maxlength="3">
+                </div>
+              </div>
+            </form>
+        </div>
+        <a href="#"><button class="btn">Comfimar Pagamento</button></a>
+    </div>
+</body>
+</html>
