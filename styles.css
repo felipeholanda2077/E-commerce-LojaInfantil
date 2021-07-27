@@ -329,10 +329,11 @@ input {
 .slider {
   display: block;
   margin: auto;
-  margin-top: 70px;
+  margin-top: 80px;
   position: relative;
   max-width: 100%;
   height: auto;
+
   overflow: visible;
   box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
 }
@@ -506,12 +507,18 @@ input {
 .button--link:hover {
   background: none;
 }
+
+.banner_ajato {
+  display: block;
+  margin-top: 50px;
+}
 .gif {
-  background: url('gif-inicial.gif') center center no-repeat fixed;
-  display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 600px;
+  align-items: top;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 555px;
+  left: 90px;
 }
 /*=============== MAIS VENDIDOS ===============*/
 .about__data {
