@@ -5,9 +5,6 @@
 :root {
   --header-height: 3rem;
 
-  /*========== Colors ==========*/
-  /* Change favorite color to match images */
-  /*Green dark 190 - Green 171 - Grren Blue 200*/
   --hue-color: 200;
 
   /* HSL color mode */
@@ -225,11 +222,11 @@ input {
 #btnBusca{
   border: none;
   float:right;
-  height:32px;
+  height:29px;
   border-radius:0 7px 7px 0;
   width:70px;
   font-weight:bold;
-  background:hsl(0, 0%, 100%);
+  background:hsl(194, 100%, 43%);
 }
 
 #divBusca img{
@@ -336,6 +333,8 @@ input {
   position: relative;
   max-width: 100%;
   height: auto;
+  overflow: visible;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
 }
 
 .slider li {
@@ -348,6 +347,7 @@ input {
   height: 100%;
   width: 100%;
   vertical-align: top;
+  transition: .5s;
 }
 
 .slider input {
@@ -355,7 +355,8 @@ input {
 }
 
 .slider label {
-  background-color: #000;
+  background-color: rgb(0, 63, 145);
+  border-radius: 15px;
   bottom: 10px;
   cursor: pointer;
   display: block;
@@ -473,11 +474,14 @@ input {
   
 }
 .button-center {
+  width: 200px;
+  margin: 0 auto;
+  border: 0;
   text-align: center;
   display: inline-block;
   background-color: #1A91DA;
   color: var(--white-color);
-  padding: 1rem 2rem;
+  padding: 10px;
   font-weight: var(--font-semi-bold);
   transition: .3s;
   border-radius: 15px;
@@ -503,10 +507,11 @@ input {
   background: none;
 }
 .gif {
-  display: block;
+  background: url('gif-inicial.gif') center center no-repeat fixed;
+  display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 700px;
+    margin-top: 600px;
 }
 /*=============== MAIS VENDIDOS ===============*/
 .about__data {
@@ -522,22 +527,21 @@ input {
 }
 
 .about__img {
-  display: flex;
-  column-gap: 0rem; 
+  display: flex; 
   align-items: center;
   justify-content: center;
+  text-align: center;
+  margin: auto;
 }
 
 .about__img-overlay {
   overflow: var(--img-hidden);
 }
 
-.about__img-one {
-  width: 130px;
-}
-
 .about__img-two {
   width: 180px;
+  display: inline-block;
+
 }
 
 .about__img-one, 
@@ -570,7 +574,7 @@ input {
 .discover__description {
   color: var(--white-color);
 }
-.Texto_BMW {
+.Texto {
     color: #000000;
     text-decoration-color: #000000;
     text-align: center;
@@ -658,99 +662,23 @@ input {
   right: 0;
 }
 
-
-/*=============== PLACES ===============*/
-.place__card, .place__img {
-  height: 230px;
-}
-
-.place__container {
-  grid-template-columns: repeat(2, max-content);
-  justify-content: center;
-}
-
-.place__card {
-  position: relative;
-  overflow: var(--img-hidden);
-}
-
-.place__card:hover .place__img {
-  transform: var(--img-scale);
-}
-
-.place__img {
-  transition: var(--img-transition);
-}
-
-.place__content, .place__title {
-  color: var(--white-color);
-}
-
-.place__content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: .75rem .75rem 1rem;
-}
-
-.place__rating {
-  align-self: flex-end;
-  display: flex;
-  align-items: center;
-}
-
-.place__rating-icon {
-  font-size: .75rem;
-  margin-right: var(--mb-0-25);
-}
-
-.place__rating-number {
-  font-size: var(--small-font-size);
-}
-
-.place__subtitle, .place__price {
-  display: block;
-}
-
-.place__title {
-  font-size: var(--h3-font-size);
-  margin-bottom: var(--mb-0-25);
-}
-
-.place__subtitle {
-  font-size: var(--smaller-font-size);
-  margin-bottom: var(--mb-1-25);
-}
-
-.place__button {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  padding: .75rem 1rem;
-}
-
 /*=============== SUBSCRIBE ===============*/
-.Ibama {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 .subscribe section {
     background-color: #000000;
+    
 }
 .subscribe__bg {
   background-color: #000000;
-  padding: 2.5rem 0;
+  padding: 2.0em 0;
 }
 
 .subscribe__title, 
 .subscribe__description {
   color: var(--white-color);
+}
+.subscribe__container {
+  color: #000000;
+  background-color: #000000;
 }
 
 .subscribe__description {
@@ -805,6 +733,7 @@ input {
 .footer__title, 
 .footer__subtitle {
   font-size: var(--h3-font-size);
+  color: #000;
 }
 
 .footer__title {
