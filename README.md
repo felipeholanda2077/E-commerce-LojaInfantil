@@ -22,7 +22,7 @@
 #### Imagem
 
 <h1 aling="center">
-   <img alt="Readme" title="Readme" src="#" />
+   <img alt="Readme" src="img/preview.png"/>
 </h1>
 
 ### Tecnologias
