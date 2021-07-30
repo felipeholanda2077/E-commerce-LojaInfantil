@@ -4,26 +4,16 @@
    </a>
 </p>
 
+<p aling="center">Esse projeto...</p>
+<a href="#Sobre o Projeto">Sobre</a> •
+<a href="#Tecnologias">Tecnologias</a> •
+<a href="#Ferramentas">Ferramentas</a>
+
 # Sobre o Projeto 👨🏻‍💻
 
 <h4>Pagina de e-commerce Ifantil de roupas com checkout de pagamento no cartão</h4>
 
 <br>
-
-<p aling="center">Esse projeto...</p>
-<a href="#Sobre o Projeto">Sobre</a> •
-<a href="#Imagem">Imagem</a> •
-<a href="#Tecnologias">Tecnologias</a> •
-<a href="#Ferramentas">Ferramentas</a>
-
-<br>
-<br>
-
-#### Imagem
-
-<h1 aling="center">
-   <img alt="Readme" src="img/preview.png"/>
-</h1>
 
 ### Tecnologias
 
@@ -33,7 +23,7 @@
   - [x] **CSS**
   - [x] **JS**
 
-  #### Ferramentas
+#### Ferramentas
 
   - [**VS CODE**](https://code.visualstudio.com/)
 
