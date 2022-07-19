@@ -4,10 +4,11 @@
    </a>
 </p>
 
-<p aling="center">Esse projeto...</p>
+<p align="center">Esse projeto...<br>
 <a href="#Sobre o Projeto">Sobre</a> •
 <a href="#Tecnologias">Tecnologias</a> •
 <a href="#Ferramentas">Ferramentas</a>
+</p>
 
 # Sobre o Projeto 👨🏻‍💻
 
