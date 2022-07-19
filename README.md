@@ -10,9 +10,9 @@
 <a href="#Ferramentas">Ferramentas</a>
 </p>
 
-# Sobre o Projeto 👨🏻‍💻
+<h1 align="center">Sobre o Projeto 👨🏻‍💻</h1>
 
-<h4>Pagina de e-commerce Ifantil de roupas com checkout de pagamento no cartão</h4>
+<h4 align="center">Pagina de e-commerce Ifantil de roupas com checkout de pagamento no cartão</h4>
 
 <br>
 
